@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"No tests configured yet\"",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
