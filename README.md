@@ -1,4 +1,5 @@
 # AI-news-aggregator-
+A very basic project incorporating AI in web development
 This project uses Sentiment analysis using Sentinment library 
 Natural Language Processing (NLP):
   Sentiment analysis is a classic NLP task where AI algorithms interpret human text to determine its emotional tone.
