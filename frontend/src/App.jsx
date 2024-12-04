@@ -26,10 +26,12 @@ const App = () => {
         <option value="sports">Sports</option>
         <option value="business">Business</option>
       </select>
-      <ul>
+     <ul>
         {news.map((article, index) => (
           <li key={index}>
-            <h3>{article.title}</h3>
+          <a href={article.url} target="_blank" rel="noopener noreferrer">
+              <h2>{article.title}</h2>
+          </a>
             <p>{article.description}</p>
           </li>
         ))}
