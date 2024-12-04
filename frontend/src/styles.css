@@ -10,6 +10,7 @@ h1 {
     text-align: center;
     margin-top: 20px;
     color: #555;
+    text-shadow: -1px -1px 2px black;
 }
 
 select {
@@ -18,7 +19,9 @@ select {
     padding: 10px;
     font-size: 16px;
 }
-
+select:hover{
+    box-shadow: 2px 2px 2px #555;
+}
 ul {
     list-style-type: none;
     padding: 0;
@@ -37,7 +40,6 @@ h3 {
     margin: 0 0 10px;
     font-size: 18px;
 }
-
 p {
     margin: 0;
     font-size: 14px;
@@ -47,11 +49,12 @@ p {
 a {
     display: inline-block;
     margin-top: 10px;
-    color: #007BFF;
+    color: #02070c;
     text-decoration: none;
     font-size: 14px;
 }
 
 a:hover {
+    color: blue;
     text-decoration: underline;
 }
